@@ -7,13 +7,13 @@ public class Card implements Comparable<Card>{
     private int suit;
     private int rank;
 	
-    // creates a card with suit s and rank r
+    // creates a Card with suit s and rank r
     public Card(int s, int r){
         suit = s;
         rank = r;
     }
 	
-    // method compares cards to easily sort them
+    // method compares Cards to easily sort them
     public int compareTo(Card c){
         
         if (this.getRank() < c.getRank()){
